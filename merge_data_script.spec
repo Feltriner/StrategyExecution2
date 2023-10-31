@@ -5,7 +5,7 @@ a = Analysis(
     ['merge_data_script.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('data/Files_To_Merge/', 'data/Files_To_Merge/')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
